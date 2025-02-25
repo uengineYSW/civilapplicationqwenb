@@ -13,7 +13,7 @@ public class DataCollectionCompleted extends AbstractEvent {
 
     private Date endTime;
     private CollectionStatus status;
-    private List<Document> collectedData;
+    private Document collectedData;
 
     public DataCollectionCompleted(DataCollector aggregate) {
         super(aggregate);

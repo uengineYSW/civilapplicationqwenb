@@ -8,5 +8,5 @@ import lombok.Data;
 public class SubmitApplicationCommand {
 
     private String applicationNumber;
-    private List<Document> documents;
+    private Document documents;
 }

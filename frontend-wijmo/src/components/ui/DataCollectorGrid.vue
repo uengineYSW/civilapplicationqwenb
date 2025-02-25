@@ -12,7 +12,7 @@
                 <v-icon small>mdi-pencil</v-icon>수정
             </v-btn>
             <v-btn @click="createDataCollectionTaskDialog = true" class="contrast-primary-text" small color="primary" :disabled="!hasRole('Guest')">
-                <v-icon small>mdi-minus-circle-outline</v-icon>데이터 수집 작업 생성
+                <v-icon small>mdi-minus-circle-outline</v-icon>데이터 수집 작업
             </v-btn>
             <v-dialog v-model="createDataCollectionTaskDialog" width="500">
                 <CreateDataCollectionTaskCommand
@@ -38,7 +38,7 @@
                     @completeDataCollection="completeDataCollection"
                 ></CompleteDataCollectionCommand>
             </v-dialog>
-            <v-btn @click="failDataCollectionDialog = true" class="contrast-primary-text" small color="primary" :disabled="!hasRole('System')">
+            <!-- <v-btn @click="failDataCollectionDialog = true" class="contrast-primary-text" small color="primary" :disabled="!hasRole('System')">
                 <v-icon small>mdi-minus-circle-outline</v-icon>데이터 수집 실패
             </v-btn>
             <v-dialog v-model="failDataCollectionDialog" width="500">
@@ -46,7 +46,7 @@
                     @closeDialog="failDataCollectionDialog = false"
                     @failDataCollection="failDataCollection"
                 ></FailDataCollectionCommand>
-            </v-dialog>
+            </v-dialog> -->
             <v-btn @click="scheduleDataCollectionDialog = true" class="contrast-primary-text" small color="primary" :disabled="!hasRole('Guest')">
                 <v-icon small>mdi-minus-circle-outline</v-icon>데이터 수집 일정 설정
             </v-btn>

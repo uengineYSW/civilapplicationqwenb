@@ -7,6 +7,6 @@ import lombok.Data;
 @Data
 public class CompleteDataCollectionCommand {
 
-    private List<Document> collectedData;
+    private Document collectedData;
     private CollectionStatus status;
 }

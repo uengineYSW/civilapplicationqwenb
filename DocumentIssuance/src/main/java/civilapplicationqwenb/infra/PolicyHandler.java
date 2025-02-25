@@ -49,7 +49,7 @@ public class PolicyHandler {
         //command.setContent("???");
         //command.setUserData("???");
         //command.setDocuments("???");
-        PdfDocument.generatePdf(command);
+        // PdfDocument.generatePdf(command);
     }
 
     @StreamListener(
@@ -74,7 +74,7 @@ public class PolicyHandler {
         FinalizePdfCommand command = new FinalizePdfCommand();
         //command.setDocumentId("???");
         //command.setStatus("???");
-        PdfDocument.finalizePdf(command);
+        // PdfDocument.finalizePdf(command);
     }
 }
 //>>> Clean Arch / Inbound Adaptor

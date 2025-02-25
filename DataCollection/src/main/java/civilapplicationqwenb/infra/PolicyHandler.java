@@ -46,7 +46,7 @@ public class PolicyHandler {
         //command.setSourceSystem("???");
         //command.setCollectionSchedule("???");
         //command.setStatus("???");
-        DataCollector.createDataCollectionTask(command);
+        // DataCollector.createDataCollectionTask(command);
     }
 
     @StreamListener(
@@ -70,7 +70,7 @@ public class PolicyHandler {
 
         StartDataCollectionCommand command = new StartDataCollectionCommand();
         //command.setRunTime("???");
-        DataCollector.startDataCollection(command);
+        // DataCollector.startDataCollection(command);
     }
 }
 //>>> Clean Arch / Inbound Adaptor

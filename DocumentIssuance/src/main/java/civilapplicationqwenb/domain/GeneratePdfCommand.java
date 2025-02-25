@@ -9,5 +9,5 @@ public class GeneratePdfCommand {
 
     private String content;
     private UserData userData;
-    private List<Document> documents;
+    private Document documents;
 }

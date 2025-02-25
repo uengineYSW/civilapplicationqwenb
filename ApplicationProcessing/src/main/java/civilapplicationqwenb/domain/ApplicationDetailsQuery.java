@@ -10,6 +10,6 @@ public class ApplicationDetailsQuery {
     private ServiceType serviceType;
     private Date applicationDate;
     private ApplicationStatus status;
-    private List<Document> documents;
+    private Document documents;
     private UserData userData;
 }
